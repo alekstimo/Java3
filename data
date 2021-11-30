@@ -1,0 +1,15 @@
+
+Method   |   Iterations   |   Time   
+Add      |1000           |170257
+Add      |1000           |131617
+Get      |1000           |966599
+Get      |1000           |79695
+Delete   |1000           |111090
+Delete   |1000           |134032
+Method   |   Iterations   |   Time   
+Add      |2000           |2212734
+Add      |2000           |251763
+Get      |2000           |2655281
+Get      |2000           |153352
+Delete   |2000           |284365
+Delete   |2000           |268063
