@@ -7,30 +7,30 @@ public class main {
         List<Integer> arrayList = new ArrayList<>();
         List<Integer> linkedList = new LinkedList<>();
 
-        System.out.println("========ADD========");
-        System.out.println("Add elements " +ITERATIONS);
+        System.out.println("********ADD********");
+        System.out.println("Add " +ITERATIONS + " elements");
         System.out.println("----------------------------------------");
-        System.out.println("test add in linkedList | " + Time.timeAddToCollection(linkedList, ITERATIONS) + " ns");
+        System.out.println("time to add in linkedList | " + Time.timeAddToCollection(linkedList, ITERATIONS) + " ns");
         System.out.println("----------------------------------------");
-        System.out.println("test add in arrayList  | " + Time.timeAddToCollection(arrayList, ITERATIONS) + " ns");
-        System.out.println("----------------------------------------");
-
-
-        System.out.println("========GET========");
-        System.out.println("Get elements " +ITERATIONS);
-        System.out.println("----------------------------------------");
-        System.out.println("test  get from linkedList | " + Time.timeGetFromCollection(linkedList, ITERATIONS) + " ns");
-        System.out.println("----------------------------------------");
-        System.out.println("test get from arrayList  | " + Time.timeGetFromCollection(arrayList, ITERATIONS) + " ns");
+        System.out.println("time to add in arrayList  | " + Time.timeAddToCollection(arrayList, ITERATIONS) + " ns");
         System.out.println("----------------------------------------");
 
 
-        System.out.println("========DELETE========");
-        System.out.println("Delete elements " +ITERATIONS);
+        System.out.println("********GET********");
+        System.out.println("Get " +ITERATIONS + " elements");
         System.out.println("----------------------------------------");
-        System.out.println("test delete from linkedList | " + Time.timeDeleteFromCollection(linkedList, ITERATIONS) + " ns");
+        System.out.println("time to  get from linkedList | " + Time.timeGetFromCollection(linkedList, ITERATIONS) + " ns");
         System.out.println("----------------------------------------");
-        System.out.println("test delete from arrayList  | " + Time.timeDeleteFromCollection(arrayList, ITERATIONS) + " ns");
+        System.out.println("time to get from arrayList  | " + Time.timeGetFromCollection(arrayList, ITERATIONS) + " ns");
+        System.out.println("----------------------------------------");
+
+
+        System.out.println("********DELETE********");
+        System.out.println("Delete " +ITERATIONS + " elements");
+        System.out.println("----------------------------------------");
+        System.out.println("time to delete from linkedList | " + Time.timeDeleteFromCollection(linkedList, ITERATIONS) + " ns");
+        System.out.println("----------------------------------------");
+        System.out.println("time to delete from arrayList  | " + Time.timeDeleteFromCollection(arrayList, ITERATIONS) + " ns");
         System.out.println("----------------------------------------");
 
 
